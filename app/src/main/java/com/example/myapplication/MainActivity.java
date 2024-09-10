@@ -73,8 +73,10 @@ public class MainActivity extends Activity implements SurfaceTexture.OnFrameAvai
     protected void onStop() {
         Log.d(TAG, "onStop");
         super.onStop();
-        decoder.stopPlaying();
-        glSurfaceView.stopRendering();
+        if (decoder != null)
+            decoder.stopPlaying();
+        if (glSurfaceView != null)
+            glSurfaceView.stopRendering();
     }
 
     @Override
