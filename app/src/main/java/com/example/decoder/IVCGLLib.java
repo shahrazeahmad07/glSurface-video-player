@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.decoder;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

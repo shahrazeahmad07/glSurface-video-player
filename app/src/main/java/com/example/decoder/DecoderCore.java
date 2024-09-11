@@ -1,18 +1,12 @@
-package com.example.myapplication;
+package com.example.decoder;
 
 import java.io.File;
-import java.io.FileDescriptor;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
 import android.content.res.AssetFileDescriptor;
 
-import java.io.IOException;
-import java.nio.ByteBuffer;
-
-import android.media.Image;
 import android.media.MediaCodec;
-import android.media.MediaCodecInfo;
 import android.media.MediaExtractor;
 import android.media.MediaFormat;
 import android.util.Log;

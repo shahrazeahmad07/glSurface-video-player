@@ -1,9 +1,7 @@
-package com.example.myapplication;
+package com.example.decoder;
 
 import java.io.File;
-import java.io.FileDescriptor;
 
-import android.opengl.GLSurfaceView;
 import android.util.Log;
 import android.view.Surface;
 import android.content.res.AssetFileDescriptor;

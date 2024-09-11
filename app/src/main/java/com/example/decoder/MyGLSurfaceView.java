@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.decoder;
 
 import android.content.Context;
 import android.graphics.SurfaceTexture;

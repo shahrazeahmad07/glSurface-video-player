@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.example.decoder"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.decoder"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
